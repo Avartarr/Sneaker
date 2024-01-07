@@ -1,13 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
-import Navbar from "./Navbar";
-import Hero from "./Hero";
+import Product from "./Product";
 
 function App() {
   return (
     <BrowserRouter>
     <div className="App">
-      <Navbar />
-     <Hero />
+      <Product />
     </div>
     </BrowserRouter>
   );
